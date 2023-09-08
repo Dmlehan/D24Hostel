@@ -13,7 +13,8 @@ import java.util.List;
 @Setter
 @Getter
 @Entity
-public class Room {
+public class Room implements SuperEntity {
+    @Id
     private String room_type_id;
     private String type;
     private double key_money;

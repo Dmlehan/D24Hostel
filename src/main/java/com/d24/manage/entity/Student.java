@@ -14,7 +14,8 @@ import java.util.List;
 @Setter
 @Getter
 @Entity
-public class Student {
+public class Student implements SuperEntity {
+
     @Id
     private String student_id;
     private String name;
@@ -26,4 +27,5 @@ public class Student {
     @ToString.Exclude
     @OneToMany(mappedBy = "student",targetEntity = Reservation.class)
     private List<Reservation> list=new ArrayList<>();
+
 }
