@@ -1,0 +1,8 @@
+.Register_button {
+    -fx-background-color: #6718F3;
+    -fx-font-family: courier_new;
+    -fx-text-fill: White;
+    -fx-border-color: Wheat;
+    -fx-border-radius: 10%;
+    -fx-font-size: 16;
+}

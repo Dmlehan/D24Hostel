@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:id="pane" prefHeight="807.0" prefWidth="1311.0"
+            style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171"
+            fx:controller="com.example.hms.controller.MainFormController">
+    <children>
+        <Label layoutX="484.0" layoutY="675.0" prefHeight="82.0" prefWidth="437.0" text="Hostel Management System">
+            <font>
+                <Font size="30.0"/>
+            </font>
+        </Label>
+        <JFXButton layoutX="530.0" layoutY="604.0" onAction="#onAction" prefHeight="52.0" prefWidth="278.0"
+                   style="-fx-background-color: #2F58CD; -fx-background-radius: 15;" text="Get Started"
+                   textFill="WHITE">
+            <font>
+                <Font size="24.0"/>
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+        </JFXButton>
+        <Label layoutX="451.0" layoutY="373.0" prefHeight="94.0" prefWidth="251.0" text="Hostel ">
+            <font>
+                <Font name="System Bold" size="51.0"/>
+            </font>
+            <textFill>
+                <LinearGradient endX="1.0" endY="1.0">
+                    <stops>
+                        <Stop color="#2f58cd"/>
+                        <Stop color="#31e1f7" offset="1.0"/>
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+        <Label layoutX="343.0" layoutY="349.0" prefHeight="116.0" prefWidth="108.0" text="D">
+            <font>
+                <Font name="DejaVu Sans Condensed Bold" size="96.0"/>
+            </font>
+            <textFill>
+                <LinearGradient endX="1.0" endY="1.0">
+                    <stops>
+                        <Stop color="#2f58cd"/>
+                        <Stop color="#31e1f7" offset="1.0"/>
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+        <Label layoutX="404.0" layoutY="320.0" prefHeight="114.0" prefWidth="161.0" text="24">
+            <font>
+                <Font name="System Bold" size="51.0"/>
+            </font>
+            <textFill>
+                <LinearGradient endX="1.0" endY="1.0">
+                    <stops>
+                        <Stop color="#2f58cd"/>
+                        <Stop color="#31e1f7" offset="1.0"/>
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+        <ImageView fitHeight="363.0" fitWidth="397.0" layoutX="470.0" layoutY="14.0">
+            <image>
+                <Image url="@../assets/logo.png"/>
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>
